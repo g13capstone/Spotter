@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="g13capstone.spotter.presentation.MainActivity">
+
+    <!--<item-->
+        <!--android:id="@+id/action_fav"-->
+        <!--android:title="Favourites"-->
+        <!--android:icon="@mipmap/ic_fav_star"-->
+        <!--app:showAsAction="always"-->
+        <!--app:actionViewClass="android.support.v7.widget.FavouritesView" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/action_search"-->
+        <!--android:title="Search"-->
+        <!--android:icon="@mipmap/ic_search_button"-->
+        <!--app:showAsAction="always"/>-->
+
+    <item
+        android:id="@+id/action_refresh_main"
+        android:title="@string/action_refresh"
+        android:icon="@mipmap/ic_refresh"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_comment_main"
+        android:icon="@mipmap/lot_comment"
+        android:title="Comment"
+        app:actionViewClass="android.support.v7.widget.FavouritesView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_locate_map"
+        android:title="@string/action_refresh"
+        android:icon="@mipmap/ic_location"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_about"
+        android:title="About"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="g13capstone.spotter.presentation.LotPageActivity">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Search"
+        android:icon="@mipmap/ic_refresh"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_comment_lot"
+        android:icon="@mipmap/lot_comment"
+        android:title="Comment"
+        app:actionViewClass="android.support.v7.widget.FavouritesView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_sort"
+        android:title="Sort"
+        android:icon="@mipmap/ic_sort_name"
+        app:showAsAction="always"/>
+
+</menu>

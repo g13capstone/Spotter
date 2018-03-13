@@ -1,0 +1,90 @@
+<resources>
+
+    <string name="app_name">Spotter</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_secondary_map">SecondaryMap</string>
+
+    <!-- Action Names -->
+    <string name="action_fav">Favourites</string>
+    <string name="action_search">Search</string>
+    <string name="action_map">Map</string>
+    <string name="action_about">About</string>
+    <string name="action_refresh">Refresh</string>
+
+    <string name="proj_desc"> ECE G13 Capstone Project \n
+        Internet of Things Parking Lot Monitor System. \n
+    The application was developed for the Electrical and Computer Engineering Capstone design course
+    at the University  of Manitoba \n\n
+    Contact: g13capstone@gmail.com</string>
+
+    <!-- Variable Names -->
+    <string name="list_lot_name">Lot Name</string>
+    <string name="list_lot_id">Lot ID</string>
+    <string name="list_lot_location">Location</string>
+    <string name="list_lot_price">Price: </string>
+    <string name="list_lot_avail">Available: </string>
+    <string name="list_lot_dist">Distance: </string>
+
+    <string name="comment_label">Comment: </string>
+    <string name="string_separator">"    |    "</string>
+    <string name="time_log">Time log</string>
+    <string name="label_lot_id">Lot ID: </string>
+
+    <string name="splash_text">Parking Lot Monitor</string>
+    <string name="search_prompt">Enter Lot Name</string>
+    <string name="search_find">FIND</string>
+    <string name="list_stall_model_status">Spot Status</string>
+    <string name="list_stall_model_name">Spot Name</string>
+
+    <string name="subtitle_lot_id">Lot ID: </string>
+    <string name="subtitle_lot_avail">Available Spots: </string>
+    <string name="subtitle_lot_price">Price:  $</string>
+    <string name="subtitle_lot_capacity">Capacity: </string>
+    <string name="subtitle_lot_temp"> \tTemperature: </string>
+
+    <string name="lot_link">"https://g13capstone.000webhostapp.com/get_lots_android.php"</string>
+    <string name="spot_link">https://g13capstone.000webhostapp.com/get_stalls_android.php?lot_id=</string>
+    <string name="comment_link">https://g13capstone.000webhostapp.com/show_comments_android.php?lot_id=</string>
+    <string name="comment_send">https://g13capstone.000webhostapp.com/add_comment.php</string>
+    <string name="refresh_message">Stall Status Updated!</string>
+    <string name="sortAvailMessage">Sorted By Availability!</string>
+    <string name="sortNameMessage">Sorted By Stall Name!</string>
+    <string name="fave_add_success">Lot added to favourites!</string>
+    <string name="fave_add_fail">Unable to add to favourites!</string>
+    <string name="fave_del_success">Lot removed from favourites!</string>
+    <string name="fave_del_fail">Unable to remove form favourites!</string>
+
+    <string name="lot_button">GO</string>
+    <string name="default_comment">Select comment</string>
+    <string name="no_comment">No comments have been submitted</string>
+    <string name="comment_button">ADD COMMENT</string>
+    <string name="user_name_text">Enter a username</string>
+    <string name="enter_description">Optional Descrition:</string>
+    <string-array name="lot_options_array">
+        <item>Education Lot</item>
+        <item>Engineering Lot</item>
+        <item>Dentistry Lot</item>
+        <item>Test Lot Atrium</item>
+        <item>Select lot</item>
+    </string-array>
+
+    <string-array name="lot_id_array">
+        <item>20401</item>
+        <item>20402</item>
+        <item>20403</item>
+        <item>20499</item>
+    </string-array>
+
+    <string-array name="comment_options_array">
+        <item>Obstruction</item>
+        <item>Knocked over sensors</item>
+        <item>Other</item>
+        <item>Select issue</item>
+    </string-array>
+    <string name="title_activity_maps2">Maps2Activity</string>
+    <string name="comment_submitted">Comment Submitted</string>
+</resources>

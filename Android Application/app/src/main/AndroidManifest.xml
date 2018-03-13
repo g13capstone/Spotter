@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="g13capstone.spotter">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <permission
+        android:name="com.g13capstone.spotter.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.g13capstone.spotter.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permissions.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".presentation.SplashScreen"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".presentation.MainActivity"
+            android:label="Spotter" />
+        <activity
+            android:name=".presentation.FavouritesActivity"
+            android:label="Favourites"
+            android:parentActivityName=".presentation.MainActivity" />
+        <activity
+            android:name=".presentation.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".presentation.MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".presentation.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:parentActivityName=".presentation.MainActivity"/>
+        <activity
+            android:name=".presentation.LotPageActivity"
+            android:parentActivityName=".presentation.MainActivity" />
+        <activity
+            android:name=".presentation.LotImageActivity"
+            android:parentActivityName=".presentation.LotPageActivity"
+            android:theme="@style/AppTheme.LotImagePopup" />
+        android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".presentation.CommentActivity"
+            android:label="Comment Section"
+            android:parentActivityName=".presentation.MainActivity"/>
+    </application>
+
+</manifest>
