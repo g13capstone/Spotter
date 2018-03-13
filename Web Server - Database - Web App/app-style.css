@@ -1,0 +1,35 @@
+/* Navigation bar styling follows the w3schools tutorial*/
+.topnav {
+    background-color: #404040;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #808080;
+    color: black;
+}
+
+#top_banner {
+	background-color: #D4980D;
+}
+
+.vscroll {
+	height: 250px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	
+}
+
+
+  
